@@ -1,0 +1,20 @@
+{
+    "compilerOptions": {
+        "outDir": "./dist/intermediates/",
+        "module": "ES2015",
+        "target": "es5",
+        "removeComments": true,
+        "allowJs": true,
+        "noImplicitUseStrict": true,
+        "strictFunctionTypes": true,
+        "forceConsistentCasingInFileNames": true
+    },
+    "include": [
+        "src/**/*"
+    ],
+    "exclude": [
+        "node_modules",
+        "dist",
+        "intermediates"
+    ]
+}
