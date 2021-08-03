@@ -6,7 +6,7 @@ export default {
     input: './dist/intermediates/main.js',
     output: {
         file: './dist/bundle.js',
-        format: 'iife',
+        format: 'es',
         sourcemap: false,
     },
     plugins: [
