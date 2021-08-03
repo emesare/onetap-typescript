@@ -21,6 +21,7 @@ export default {
                 [
                     "@babel/env",
                     {
+                        "loose": true,
                         "useBuiltIns": "entry",
                         "targets": {
                             "browsers": ["IE 6"]
