@@ -42,7 +42,7 @@ class Globals { };
 
 class Local { };
 
-export { Cheat, World, GrenadePrediction, Autostop, DataFile, Convar, UserCMD, UI, Entity, Exploit, View, Material, Ragebot, AntiAim, Input, Local, Trace, Render, Globals };`;
+export { Cheat, World, GrenadePrediction, Autostop, DataFile, Convar, UserCMD, UI, Entity, Exploit, Event, View, Material, Ragebot, AntiAim, Input, Local, Trace, Render, Globals };`;
 
 if (!fs.existsSync("./dist/intermediates")) {
     fs.mkdirSync("./dist/intermediates");
